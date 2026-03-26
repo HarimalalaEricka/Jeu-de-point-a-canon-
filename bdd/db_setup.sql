@@ -22,6 +22,7 @@ CREATE TABLE moves (
     move_order INT NOT NULL
 );
 
+-- Aleas
 CREATE TABLE destroyed_point_memories (
     id SERIAL PRIMARY KEY,
     game_id INT REFERENCES games(id) ON DELETE CASCADE,
